@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* table color without using class */
+        li:nth-child(odd){
+            background-color: aliceblue;
+        }
+
+        li:nth-child(even){
+            background-color: antiquewhite;
+        }
+
+        li:first-child{
+            background-color: aqua;
+        }
+        li:last-child{
+            background-color: azure;
+
+        }
+        li:nth-child(5){
+            background-color: darkgray;
+        }
+        ul{
+            width: 200px;
+            padding: 10px;
+            list-style-type: none;
+            font-weight: 900;
+        }
+        li{
+            padding: 10px;
+            border: 2px solid black;
+            margin-bottom: 10px;
+            border-radius: 10px;
+
+        }
+        
+        /* table color using class */
+        .black_1{
+            background-color: blue;
+        }
+        .black_2{
+            background-color: yellow;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- ul>li*8{Item $} -->
+    <ul>
+        <li class="black_1">Item 1 </li>
+        <li class="black_2">Item 2</li>
+        <li class="black_1">Item 3</li>
+        <li class="black_2">Item 4</li>
+        <li class="black_1">Item 5</li>
+        <li class="black_2">Item 6</li>
+        <li class="black_1">Item 7</li>
+        <li class="black_2">Item 8</li>
+    </ul>
+</body>
+</html>

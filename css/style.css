@@ -1,0 +1,282 @@
+h3{
+    color: cornflowerblue;
+    background-color: burlywood;
+    font-size: 50ox;
+}
+
+/* h3{
+    color: deeppink;
+    background-color: bisque;
+    font-size: 50px;
+} */
+
+h4{
+    color: aqua;
+    background-color: cadetblue;
+    font-size: 40px;
+}
+h5{
+    color: indigo;
+    background-color: aliceblue;
+    font-size: 50PX;
+}
+T{
+   color: blue;
+   background-color: blanchedalmond;
+}
+
+.heading{
+    color: red;
+    background-color: yellow;
+}
+
+.heading1{
+    color: blue;
+    background-color: chartreuse;
+}
+.para{
+    color: gold;
+    background-color: magenta;
+}
+.head{
+    color: aqua;
+    background-color: chocolate;
+}
+#head{
+    color: rgb(237, 11, 158);
+    background-color: rgb(11, 164, 240);
+    font-size: 50px;
+}
+.practice{
+    color: crimson;
+}
+
+#practice{
+    color: blue;
+}
+.practice_1{
+    font-size:larger;
+}
+#practice_1{
+    font-size: small;
+}
+.t_transform_upper{
+    text-transform: uppercase;
+}
+.t_transform_lower{
+    text-transform: lowercase;
+}
+.t_transform_capitalize{
+    text-transform: capitalize;
+}
+.t_center{
+    text-align: center;
+}
+.t_right{
+    text-align: right;
+}
+
+.t_decor_underline{
+    text-decoration: underline;
+}
+
+.t_decor_overline{
+    text-decoration: overline;
+}
+.t_decor_linethrough{
+    text-decoration: line-through;
+}
+.t_decor{
+    text-decoration: line-through overline underline;
+}
+.t_indent{
+    text-indent: 100px;
+}
+.t_word_space{
+    word-spacing: 80px;
+}
+.t_letter_space{
+    letter-spacing: 15px;
+}
+.para_line_height{
+    line-height: 45px;
+}
+
+.t_shadow{
+    color: black;
+     text-shadow: 0px 5px 5px gray;
+     font-size: 60px;
+}
+.t_shadow1{
+    color: rgb(220, 20, 197);
+    text-shadow: 3px 3px 6px yellow;
+    font-size: 50px;
+}
+.t_shadow2{
+    color: aqua;
+    text-shadow: 5px 2px 6px gold;
+    font-size:70px ;
+}
+.img_b_shadow{
+    box-shadow: 4px 6px 8px red;
+    width: 200px;
+    height: 200px;
+}
+.img_d_shadow{
+    filter:drop-shadow(5px 6px 7px red);
+    width: 200px;
+    height: 200px;
+}
+.img2_d_shadow{
+    filter: drop-shadow(5px 5px 5px gold);
+}
+.img3_d_shadow{
+    filter: drop-shadow(3px 3px 2px blue);
+}
+/* solid,dashed,dotted,double,groove,inset,outset */
+.img_border{
+    border: 14px solid;
+    border-color: rgb(73, 241, 13) rgb(223, 13, 142);
+    border-radius: 40px;
+}
+.img2_border{
+    border: 15px outset blue;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 40px;
+}
+.img3_border{
+    border: 10px inset yellow;
+    border-radius: 50px 80px 50px 80px;
+}
+.img4_border{
+    border: 5px groove palevioletred;
+    border-radius: 50px 80px;
+}
+.b_model{
+    border: 4px solid rgb(243, 187, 6);
+    /* padding: 30px; */
+    /* padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 60px;
+    padding-left: 60px; */
+    padding: 20px 60px;
+    margin: 100px;
+}
+.b1_model{
+    border:10px solid rgb(215, 10, 10) ;
+    padding: 50px 30px 50px 30px;
+    margin: 50px;
+}
+.b_img_model{
+    border: 10px dotted brown;
+    padding: 50px;
+    margin: 50px;
+
+}
+.f_family{
+    font-family:'gill sans','gill sans mt','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.f_family2{
+    font-family: cursive;
+}
+.f_family3{
+    font-family: monospace;
+    font-size: 30px;
+    line-height: 35px;
+}
+.f_weight1{
+    font-weight: 200;
+    font-size: 60px;
+}
+.bgcolor{
+    background-color: blue;
+    font-size: 50px;
+}
+.bglinear{
+    font-size: 100PX;
+    height: 400px;
+    color: white;
+    height: 400px;
+    /* background: linear-gradient(to right,red,green,yellow,black); */
+    background: linear-gradient(orange,white,green);
+}
+.bgradial{
+    height: 600PX;
+    background: radial-gradient(circle at left top,rgb(172, 234, 86),blue,white)
+}
+.bgconic{
+     height: 500px;
+     background: conic-gradient(red,green,white);
+}
+div{
+    margin-bottom: 40px;
+}
+.bg_image{
+    background-color: beige;
+    background-image:url("/Images/Rajdarbar.jpeg");
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+h1{
+    color: rgb(0, 9, 16);
+    padding: 30px;
+    margin: 30px;
+    font-size: 80px;
+
+}
+.box{
+    width: 250px;
+    height: 250px;
+    border: 5px solid red;
+    background-color: gray;
+    font-size: 20px;
+    margin: 10px;
+}
+.box1{
+    position: static;
+}
+.box2{
+     position: relative;
+     top: 30px;
+     left: 300px;
+}
+.box3{
+    position: absolute;
+    top: 30px;
+    left: 300px;
+}
+.box4{
+     position: sticky;
+     top: 0;
+}
+.box5{
+     position: fixed;
+     bottom: 0;
+     right: 10px;
+}
+.flex_item{
+    width: 200px;
+    height: 150px;
+    font-size:40px ;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex_container{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+
+}
